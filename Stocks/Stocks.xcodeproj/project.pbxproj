@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15EA5F241F7262C600E01BA5 /* BNRForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EA5F231F7262C600E01BA5 /* BNRForeignStockHolding.m */; };
 		91B5294F1F27812800169051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B5294E1F27812800169051 /* main.m */; };
 		91B529571F27813C00169051 /* BNRStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B529561F27813C00169051 /* BNRStockHolding.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15EA5F221F7262C600E01BA5 /* BNRForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRForeignStockHolding.h; sourceTree = SOURCE_ROOT; };
+		15EA5F231F7262C600E01BA5 /* BNRForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRForeignStockHolding.m; sourceTree = SOURCE_ROOT; };
 		91B5294B1F27812800169051 /* Stocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stocks; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B5294E1F27812800169051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91B529551F27813C00169051 /* BNRStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRStockHolding.h; sourceTree = "<group>"; };
@@ -46,6 +49,8 @@
 			children = (
 				91B529551F27813C00169051 /* BNRStockHolding.h */,
 				91B529561F27813C00169051 /* BNRStockHolding.m */,
+				15EA5F221F7262C600E01BA5 /* BNRForeignStockHolding.h */,
+				15EA5F231F7262C600E01BA5 /* BNRForeignStockHolding.m */,
 				91B5294D1F27812800169051 /* Stocks */,
 				91B5294C1F27812800169051 /* Products */,
 			);
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15EA5F241F7262C600E01BA5 /* BNRForeignStockHolding.m in Sources */,
 				91B5294F1F27812800169051 /* main.m in Sources */,
 				91B529571F27813C00169051 /* BNRStockHolding.m in Sources */,
 			);
@@ -252,6 +258,7 @@
 				91B529541F27812800169051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

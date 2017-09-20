@@ -7,14 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BNRStockHolding.h"
+#import "BNRForeignStockHolding.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         //创建三个实例
         BNRStockHolding *macy = [[BNRStockHolding alloc] init];
         BNRStockHolding *lucy = [[BNRStockHolding alloc] init];
-        BNRStockHolding *giny = [[BNRStockHolding alloc] init];
+        BNRForeignStockHolding *giny = [[BNRForeignStockHolding alloc] init];
         
         //将这三个对象放进数组
         NSMutableArray *dateList = [NSMutableArray array];
@@ -34,6 +34,7 @@ int main(int argc, const char * argv[]) {
         [giny setPur:45.10];
         [giny setCur:49.51];
         [giny setNum:210];
+        giny.conversionRate = 0.94;
         
         //遍历三个实例，打印三个实例的计算数据
         NSUInteger dateCount = [dateList count];
