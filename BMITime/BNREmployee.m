@@ -8,6 +8,12 @@
 
 #import "BNREmployee.h"
 
+//类扩展
+@interface BNREmployee ()
+@property (nonatomic) unsigned int officelAlarmCode;
+
+@end
+
 @implementation BNREmployee
 
 -(double)yearsOfEmployment{
