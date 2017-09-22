@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  Hypnosister
+//  StartAgain
 //
 //  Created by ListenS on 17/9/22.
 //  Copyright © 2017年 ListenS. All rights reserved.
@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
 }
 
 - (void)didReceiveMemoryWarning {
