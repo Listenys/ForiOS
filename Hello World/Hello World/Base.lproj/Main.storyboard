@@ -27,11 +27,17 @@
                                 <rect key="frame" x="0.0" y="94" width="320" height="21"/>
                                 <color key="backgroundColor" red="1" green="0.85068584570000005" blue="0.36916194940000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Show Question"/>
+                                <connections>
+                                    <action selector="showQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lop-Lp-EFK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZm-ca-SJH">
                                 <rect key="frame" x="0.0" y="300" width="320" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.85068584570000005" blue="0.36916194940000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Show Answer"/>
+                                <connections>
+                                    <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BF3-fP-QD2"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45B-6A-YR4">
                                 <rect key="frame" x="0.0" y="256" width="320" height="25"/>
@@ -42,6 +48,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="45B-6A-YR4" id="7J1-RN-Neo"/>
+                        <outlet property="questionLabel" destination="Ps1-kd-yNf" id="Exl-7x-TnT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
