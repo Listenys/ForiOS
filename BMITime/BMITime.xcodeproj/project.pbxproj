@@ -10,6 +10,7 @@
 		15EA5F211F7257A000E01BA5 /* BNREmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EA5F201F7257A000E01BA5 /* BNREmployee.m */; };
 		91B529391F27794400169051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B529381F27794400169051 /* main.m */; };
 		91B529411F277A1700169051 /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B529401F277A1700169051 /* BNRPerson.m */; };
+		91C9833E1F6AA34C0013A24F /* BNREmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C9833D1F6AA34C0013A24F /* BNREmployee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		91B529381F27794400169051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91B5293F1F277A1700169051 /* BNRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPerson.h; sourceTree = "<group>"; };
 		91B529401F277A1700169051 /* BNRPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRPerson.m; sourceTree = "<group>"; };
+		91C9833C1F6AA34C0013A24F /* BNREmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNREmployee.h; sourceTree = "<group>"; };
+		91C9833D1F6AA34C0013A24F /* BNREmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNREmployee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,8 @@
 		91B5292C1F27794400169051 = {
 			isa = PBXGroup;
 			children = (
+				91C9833C1F6AA34C0013A24F /* BNREmployee.h */,
+				91C9833D1F6AA34C0013A24F /* BNREmployee.m */,
 				91B5293F1F277A1700169051 /* BNRPerson.h */,
 				15EA5F1F1F7257A000E01BA5 /* BNREmployee.h */,
 				15EA5F201F7257A000E01BA5 /* BNREmployee.m */,
@@ -129,7 +134,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream
 				15EA5F211F7257A000E01BA5 /* BNREmployee.m in Sources */,
+=======
+				91C9833E1F6AA34C0013A24F /* BNREmployee.m in Sources */,
+>>>>>>> Stashed changes
 				91B529391F27794400169051 /* main.m in Sources */,
 				91B529411F277A1700169051 /* BNRPerson.m in Sources */,
 			);
