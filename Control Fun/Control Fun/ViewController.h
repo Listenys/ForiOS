@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  StartAgain
+//  Control Fun
 //
-//  Created by ListenS on 17/9/22.
+//  Created by ListenS on 17/9/25.
 //  Copyright © 2017年 ListenS. All rights reserved.
 //
 
@@ -10,9 +10,7 @@
 
 @interface ViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UILabel *statusLabel;
-
-- (IBAction)buttonPressed:(UIButton *)sender;
+-(IBAction)textFieldDoneEditin:(id)sender;
 
 @end
 
